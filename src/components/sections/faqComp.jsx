@@ -2,6 +2,7 @@ import React from 'react'
 import faq_banner from "@/assets/images/faq/banner-1.png"
 import SectionName from '../ui/sectionName'
 import Title from '../ui/title'
+import img from "@/assets/images/laptop-girl.png"
 import {
   Accordion,
   AccordionContent,
@@ -17,7 +18,7 @@ const FaqComp = () => {
       <div className="container">
         <div className="grid lg:grid-cols-2 grid-cols-1 items-center gap-7.5">
           <div className="max-w-[528px] lg:max-w-full mx-auto">
-            <img src={faq_banner} alt="child with laptop" />
+            <img src={img} alt="child with laptop" />
           </div>
           <div>
             <div className="lg:max-w-[520px] pb-10">

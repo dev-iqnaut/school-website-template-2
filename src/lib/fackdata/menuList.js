@@ -28,7 +28,7 @@ export const menuList = [
             },
             {
                 id: 2,
-                path: "/affiliation-details",
+                path: "/affiliation",
                 label: "Affiliation Details",
             },
             {

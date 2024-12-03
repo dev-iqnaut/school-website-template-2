@@ -20,9 +20,9 @@ const SuccessProjectOne = () => {
                         <SectionName className={"text-primary-foreground"}>Our</SectionName>
                         <Title size={"3.5xl"} className={"lg:max-w-[410px] pb-5"}>Academics</Title>
                         <SectionDescription> A Dream is the unprecedented architect of life. With this in perspective, Ascent High School focuses on student centric learning approach for holistic growth in nurturing every student who can have insight, critical thinking and responsive attitude to the things around, in a decisive and logical manner.</SectionDescription>
-                        {/* <Button asChild variant="outline" className="mt-10">
-                            <Link to={"/contact-us"}>Get a quote</Link>
-                        </Button> */}
+                        <Button asChild variant="outline" className="mt-10">
+                            <Link to={"/contact-us"}>Contact Us</Link>
+                        </Button>
                     </div>
 
                     <div className="grid sm:grid-cols-2 grid-cols-1 gap-7.5">

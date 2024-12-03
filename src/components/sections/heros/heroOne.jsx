@@ -1,7 +1,7 @@
 import React from 'react'
 import { Button } from '@/components/ui/button'
-import boy_img_1 from "@/assets/images/banner/boy_img_1.png"
-import boy_img_2 from "@/assets/images/banner/boy_img_2.png"
+import boy_img_1 from "@/assets/images/banner-ascent.png"
+import boy_img_2 from "@/assets/images/blue-banner.png"
 import painting from "@/assets/images/banner/painting.png"
 import left_circle_1 from "@/assets/images/banner/left-circle-1.png"
 import left_circle_2 from "@/assets/images/banner/left-circle-2.png"
@@ -34,8 +34,8 @@ const HeroOne = () => {
             </Button>
           </div>
         </div>
-        <div className="absolute left-2.5 lg:top-0 top-10 lg:max-w-full max-w-[200px] sm:block hidden animate-up-down">
-          <img src={boy_img_1} alt="banner-img-1" />
+        <div className="absolute left-2.5 lg:top-0 -ml-[10%] top-10 lg:max-w-full max-w-[200px] sm:block hidden animate-up-down">
+          <img src={boy_img_1} alt="banner-img-1"  />
           <span className="absolute -left-2.5 top-[9px] border-2 border-primary rounded-[125px] w-full h-full"></span>
         </div>
 
@@ -45,7 +45,7 @@ const HeroOne = () => {
         </div>
 
         <div className="lg:pt-[72px]">
-          <img src={painting} alt="painting" />
+          <img src={'https://ascent-react.vercel.app/assets/painting-ByNae3xf.png'} alt="painting" />
         </div>
       </div>
       {/* <!-- circle shap --> */}

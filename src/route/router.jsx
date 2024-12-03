@@ -16,6 +16,9 @@ import LayoutTwo from "@/layout/layoutTwo";
 import HomeTwo from "@/pages/home-2";
 import HomeOne from "@/pages/home-1";
 import LayoutThree from "@/layout/layoutThree";
+import Affiliation from "@/pages/affiliation";
+import Admission from "@/pages/admission";
+import Infrastructure from "@/pages/infrastructure";
 
 
 export const router = createBrowserRouter([
@@ -66,6 +69,18 @@ export const router = createBrowserRouter([
             {
                 path: "/mandatoryDisclosure",
                 element: <MandatoryDisclosure />
+            },
+            {
+                path: "/affiliation",
+                element: <Affiliation />
+            },
+            {
+                path: "/admission",
+                element: <Admission />
+            },
+            {
+                path: "/infrastructure",
+                element: <Infrastructure />
             },
             {
                 path: "/blog-details",

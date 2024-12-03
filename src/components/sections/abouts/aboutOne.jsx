@@ -32,8 +32,8 @@ const AboutOne = ({ gridClass, isAboutpage }) => {
                                             <img src={customer} alt="customer" />
                                         </div>
                                         <div>
-                                            <h6 className="text-cream-foreground font-bold text-2xl">5,000+</h6>
-                                            <p className="text-cream-foreground">Satisfied Clients</p>
+                                            <h6 className="text-cream-foreground font-bold text-2xl">20,000+</h6>
+                                            <p className="text-cream-foreground">Happy Parents</p>
                                         </div>
                                     </div>
                                 </div>
@@ -42,11 +42,11 @@ const AboutOne = ({ gridClass, isAboutpage }) => {
                                 <div className="bg-warm max-w-[212px] rounded-[11px] px-5 pt-[22px] pb-6 flex flex-col items-center justify-center text-center">
                                     <img src={icreement} alt="icreement" />
                                     <h6 className="text-xl font-bold">Academy</h6>
-                                    <p>Learning Ladder School</p>
+                                    <p>IQnaut High School</p>
                                 </div>
                                 <div className="bg-background max-w-[212px] rounded-[11px] px-5 pt-[22px] pb-6 flex flex-col justify-center drop-shadow-[0px_4.8px_24.4px_rgba(19,16,34,0.10)]">
-                                    <h6 className="text-[32px] font-bold text-secondary-foreground">10+</h6>
-                                    <p>Learning Ladder School</p>
+                                    <h6 className="text-[22px] font-bold text-secondary-foreground">Embracing STEAM</h6>
+                                    {/* <p>Learning Ladder School</p> */}
                                 </div>
                             </div>
                         </div>
@@ -54,14 +54,12 @@ const AboutOne = ({ gridClass, isAboutpage }) => {
                     {/* <!-- right side start --> */}
                     <div className={`${isAboutpage ? "" : "lg:max-w-[439px]"} pt-7.5`}>
                         <SectionName>About Us</SectionName>
-                        <Title size={"3.5xl"} className={"pb-5"}>Unlocking Potential, One Child at a just Time in school</Title>
-                        <SectionDescription>Lorem ipsum dolor sit amet consectetur. Amet lectus mi ultricies dictum facilisis sem. Imperdiet
-                            massa turpis sit proin metus volutpat loren ipsum Lorem ipsum dolor sit amet consectetur. Amet
-                            lectus mi ultricies dictum</SectionDescription>
+                        <Title size={"3.5xl"} className={"pb-5"}>Unlocking Potential, One Child at a Time</Title>
+                        <SectionDescription>IQnaut High School (IHS) is dedicated to delivering quality English-medium, technology-driven education by overcoming the challenges of accessibility and affordability. We understand that many parents struggle to provide their children with the quality education they deserve due to these barriers. IHS bridges this gap by bringing excellent education to small towns and semi-urban areas, making it both accessible and affordable. At IHS, we believe every child deserves the best opportunities—and this is just the beginning. The future promises even greater possibilities!</SectionDescription>
                         <div className='lg:mt-10 mt-7'>
-                            <Button asChild variant="outline">
+                            {/* <Button asChild variant="outline">
                                 <Link to="/about-us">Get a quote</Link>
-                            </Button>
+                            </Button> */}
                         </div>
 
                     </div>

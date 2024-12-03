@@ -1,5 +1,5 @@
 import React from "react";
-import sutdent_img from "@/assets/images/newsletter/student.png";
+import student_img from "@/assets/images/call-us-girl.png";
 import { Button } from "@/components/ui/button";
 import { FaArrowRight } from "react-icons/fa6";
 import Input from "@/components/ui/input";
@@ -16,7 +16,7 @@ const NewsletterOne = () => {
           <div className="flex lg:flex-row flex-col lg:items-center justify-between gap-7.5">
             <div className="max-w-[598px] w-full order-1 lg:order-0 animate-left-right">
               <div className="bg-[url('./assets/images/shapes/egg-shap.png')] bg-no-repeat bg-bottom bg-contain">
-                <img src={sutdent_img} alt="student-img" className="mx-auto" />
+                <img src={student_img} alt="student-img" className="mx-auto" />
               </div>
             </div>
             <div className="lg:max-w-[530px] order-0 lg:order-1">
