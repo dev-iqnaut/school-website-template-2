@@ -34,7 +34,7 @@ const HeroOne = () => {
             </Button>
           </div>
         </div>
-        <div className="absolute left-2.5 lg:top-0 -ml-[10%] top-10 lg:max-w-full max-w-[200px] sm:block hidden animate-up-down">
+        <div className="absolute left-2.5 lg:top-0  top-10 lg:max-w-full max-w-[200px] sm:block hidden animate-up-down">
           <img src={boy_img_1} alt="banner-img-1"  />
           <span className="absolute -left-2.5 top-[9px] border-2 border-primary rounded-[125px] w-full h-full"></span>
         </div>
