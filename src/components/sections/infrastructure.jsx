@@ -19,62 +19,62 @@ function infrastructure() {
 
   const sections = [
     {
-      title: "Building Tomorrow's Foundation",
-      image: 'https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&q=80&w=2070',
-      text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia, molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum numquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium optio, eaque rerum! Provident similique accusantium nemo autem. Veritatis obcaecati tenetur iure eius earum ut molestias architecto voluptate aliquam nihil, eveniet aliquid culpa officia aut!',
-      endingText: 'Transforming visions into reality, one foundation at a time.',
+      title: "Mathematics Laboratory",
+      image: 'https://i0.wp.com/www.sghps.ac.in/wp-content/uploads/2022/10/Mathslab-e1671422978160.jpg?w=766&ssl=1',
+      text: "Mathematics Laboratory is a place where students can learn and explore mathematical concepts and verify mathematical facts and theorems through a variety of activities using different materials. These activities may be carried out by the teacher or the student to explore, to learn , to stimulate interest and develop favorable attitude towards mathematics.",
+      endingText: 'Mathematics is like a poetry of logical ideas',
     },
     {
-      title: 'Innovative Design Solutions',
-      image: 'https://images.unsplash.com/photo-1497366811353-6870744d04b2?auto=format&fit=crop&q=80&w=2069',
-      text: 'Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium.',
-      endingText: 'Where innovation meets excellence in design.',
+      title: 'Physics Lab',
+      image: 'https://i0.wp.com/www.sghps.ac.in/wp-content/uploads/2022/12/Physics-min.jpg?resize=1536%2C1152&ssl=1',
+      text: 'Physics is the scientific study of matter and energy and how they interact with each other. This energy can take the form of motion, light, electricity, radiation, gravity. Just about anything, honestly. Physics deals with matter on scales ranging from sub-atomic particles (i.e. the particles that make up the atom and the particles that make up those particles) to stars and even entire galaxies.',
+      endingText: 'We have a physics laboratory equipped with all the equipment required for the lab activity till high school. ',
     },
     {
-      title: 'Sustainable Development',
-      image: 'https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&q=80&w=2069',
-      text: 'Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.',
-      endingText: 'Building for today while preserving tomorrow.',
+      title: 'Chemistry Lab',
+      image: 'https://i0.wp.com/www.sghps.ac.in/wp-content/uploads/2022/12/Chemistry-min.jpg?resize=1536%2C1152&ssl=1',
+      text: 'The Chemistry Laboratory conducts fundamental studies of highway materials to understand both failure mechanisms and superior performance. This laboratory has all the necessary equipment for preparation of samples and standards for various analyses of liquid and solid samples. Various activities are carried out by the teacher or the student to explore, to learn , to stimulate interest and develop favourable attitude towards Chemistry.',
+      endingText: 'Chemistry is good when you make love with it. Chemistry is bad when you make crack with it.',
     },
     {
-      title: 'Quality Assurance',
-      image: 'https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&q=80&w=2070',
-      text: 'Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur? At vero eos et accusamus et iusto odio dignissimos.',
+      title: 'Biology Lab',
+      image: 'https://i0.wp.com/www.sghps.ac.in/wp-content/uploads/2022/12/Bio-Lab-min.jpg?resize=1536%2C1152&ssl=1',
+      text: 'A Biology laboratory is a room where biological studies, analyzes and experiments are carried out. Biological Science Laboratory Apparatus is essential for meeting our basic needs and it enriches the quality of life in numerous ways by providing new solutions to problems in health and materials and energy usage. Students also learn about lab safety and explore various topics.',
+      endingText: '',
+    },
+    {
+      title: 'Library',
+      image: 'https://i0.wp.com/www.sghps.ac.in/wp-content/uploads/2022/12/Library-1.jpg?fit=800%2C900&ssl=1',
+      text: 'The school library exists to provide a range of learning opportunities for both large and small groups as well as individuals with a focus on intellectual content, information literacy, and the learner. In addition to classroom visits with collaborating teachers, the school library also serves as a place for students to do independent work, use computers, equipment and research materials; to host special events such as author visits and book clubs; and for tutoring and testing.The school library media center program is a collaborative venture in which school library media specialists, teachers, and administrators work together to provide opportunities for the school, cultural, and educational growth of students. Activities that are part of the school library media origami can take place in the school library media center, the laboratory classroom, through the school, and via the school library’s online resources.Our school library contains all kind of books, including reference books, encyclopedias, Magazines. We have a collection of 2500 books.',
       endingText: 'Excellence is not an act, but a habit in our quality standards.',
-    },
-    {
-      title: 'Future-Ready Infrastructure',
-      image: 'https://images.unsplash.com/photo-1497366811353-6870744d04b2?auto=format&fit=crop&q=80&w=2069',
-      text: 'Ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio.',
-      endingText: 'Preparing today for the challenges of tomorrow.',
     },
   ];
 
   const rooms = [
     {
       title: 'Dance Room',
-      image: 'https://images.unsplash.com/photo-1478737270239-2f02b77fc618?auto=format&fit=crop&q=80&w=2070',
+      image: 'https://i0.wp.com/www.sghps.ac.in/wp-content/uploads/2022/08/DSC0729.jpg?fit=378%2C378&ssl=1',
       description: 'Dance is a form of performing art and is blended in various activities of school curriculum.',
       color: 'bg-red-100',
       textColor: 'text-red-500',
     },
     {
       title: 'Music Room',
-      image: 'https://images.unsplash.com/photo-1598488035139-bdbb2231ce04?auto=format&fit=crop&q=80&w=2070',
+      image: 'https://i0.wp.com/www.sghps.ac.in/wp-content/uploads/2022/08/music-room.jpg?w=504&ssl=1',
       description: 'Music leads to better brain development and even lowers stress levels.',
       color: 'bg-blue-100',
       textColor: 'text-blue-500',
     },
     {
       title: 'Yoga Room',
-      image: 'https://images.unsplash.com/photo-1599447421416-3414500d18a5?auto=format&fit=crop&q=80&w=2070',
+      image: 'https://i0.wp.com/www.sghps.ac.in/wp-content/uploads/2022/08/DSC0715.jpg?w=504&ssl=1',
       description: 'Yoga helps to improve memory function, academic performance, reduces stress level and helps in overall development of students.',
       color: 'bg-orange-100',
       textColor: 'text-orange-500',
     },
     {
       title: 'Art & Craft Room',
-      image: 'https://images.unsplash.com/photo-1499892477393-f675706cbe6e?auto=format&fit=crop&q=80&w=2070',
+      image: 'https://i0.wp.com/www.sghps.ac.in/wp-content/uploads/2022/10/Art-Craft-1.jpg?w=504&ssl=1',
       description: 'Art and Craft activities are integrated with the main subjects to develop the creativity and imaginated power of the students.',
       color: 'bg-green-100',
       textColor: 'text-green-500',
@@ -154,8 +154,8 @@ function infrastructure() {
       {/* Rooms Section */}
       <div className="bg-gray-50 py-20">
         <div className="container mx-auto px-4">
-          <h2 className="text-4xl font-bold text-center mb-4">Rooms</h2>
-          <p className="text-xl text-center text-gray-600 mb-16">dedicated to extra curricular learning.</p>
+          <h2 className="text-6xl font-bold text-center mb-4">Rooms</h2>
+          <p className="text-2xl text-center text-gray-600 mb-16">Dedicated to extra curricular learning.</p>
           
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
             {rooms.map((room, index) => (
