@@ -2,10 +2,10 @@ import React from "react";
 import ManagingCommittee from "./ManagingCommittee";
 
 const committeeData = [
-  { name: "John Doe", designation: "President" },
-  { name: "Jane Smith", designation: "Secretary" },
-  { name: "Alice Johnson", designation: "Treasurer" },
-  { name: "Michael Brown", designation: "Member" },
+  { name: "Kalpesh Patel", designation: "President" },
+  { name: "Punit Sharma", designation: "Secretary" },
+  { name: "Sumit Rawat", designation: "Treasurer" },
+  { name: "Kanika Mishra", designation: "Member" },
 ];
 
 const vision =

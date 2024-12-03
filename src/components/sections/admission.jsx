@@ -2,10 +2,10 @@ import React from "react";
 
 const admission = () => {
   const ages = [
-    "11/2+",
-    "21/2+",
-    "31/2+",
-    "41/2+",
+    "1.5+",
+    "2.5+",
+    "3.5+",
+    "4.5+",
     "5+",
     "6+",
     "7+",
@@ -132,6 +132,40 @@ const admission = () => {
 
         <div className="mb-8">
           <h3 className="text-2xl font-semibold text-[#00756f] mb-4">
+            Application Documentation
+          </h3>
+          <p className="text-lg text-gray-700">
+            The admission process is followed by submission of application
+            document in Admission Office. Students:
+          </p>
+          <ul className="list-decimal list-inside text-lg text-gray-700">
+            <h3 className="text-xl font-semibold my-2">Students:</h3>
+            <li>3 recent color photos.</li>
+            <li>
+              Birth certificate of student or a copy of a foreign passport of
+              the student and parent(s).
+            </li>
+            <li>
+              Academic records for the past two years(submitted during
+              Pre-registration)
+            </li>
+            <li>
+              Transfer Certificate from the previous school. If for any reason
+              the Transfer Certificate cannot be produced at the time of
+              admission, it must be produced on or before the commencement of
+              the academic session.
+            </li>
+            <li>Transport/Lunch and Boarding requisition forms</li>
+            <li>Health Record</li>
+            <li>Permission Form</li>
+            <h3 className="text-xl font-semibold my-2">Family:</h3>
+            <li>Residential address proof</li>
+            <li>Permission to contact current/previous school.</li>
+          </ul>
+        </div>
+
+        <div className="mb-8">
+          <h3 className="text-2xl font-semibold text-[#00756f] mb-4">
             Eligibility Criteria
           </h3>
           <ul className="list-decimal list-inside text-lg text-gray-700">
@@ -183,40 +217,6 @@ const admission = () => {
                 </div>
               </section>
             </li>
-          </ul>
-        </div>
-
-        <div className="mb-8">
-          <h3 className="text-2xl font-semibold text-[#00756f] mb-4">
-            Application Documentation
-          </h3>
-          <p>
-            The admission process is followed by submission of application
-            document in Admission Office. Students:
-          </p>
-          <ul className="list-decimal list-inside text-lg text-gray-700">
-            <h3 className="text-xl font-semibold my-2">Students:</h3>
-            <li>3 recent color photos.</li>
-            <li>
-              Birth certificate of student or a copy of a foreign passport of
-              the student and parent(s).
-            </li>
-            <li>
-              Academic records for the past two years(submitted during
-              Pre-registration)
-            </li>
-            <li>
-              Transfer Certificate from the previous school. If for any reason
-              the Transfer Certificate cannot be produced at the time of
-              admission, it must be produced on or before the commencement of
-              the academic session.
-            </li>
-            <li>Transport/Lunch and Boarding requisition forms</li>
-            <li>Health Record</li>
-            <li>Permission Form</li>
-            <h3 className="text-xl font-semibold my-2">Family:</h3>
-            <li>Residential address proof</li>
-            <li>Permission to contact current/previous school.</li>
           </ul>
         </div>
       </div>

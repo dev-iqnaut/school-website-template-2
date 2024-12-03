@@ -1,5 +1,5 @@
 import React from "react";
-import stay_thumb from "@/assets/images/newsletter/stay-thumb.png";
+import stay_thumb from "@/assets/images/astronaut-1.png";
 import stay_shape from "@/assets/images/newsletter/stay-shape.png";
 import SectionName from "@/components/ui/sectionName";
 import Title from "@/components/ui/title";
@@ -30,7 +30,7 @@ const NewsletterTwo = () => {
                   asChild
                 >
                   <Link to={"/about-us"} className="btn-rounded-full">
-                    call us : 1800 891 1234
+                    CALL US : 1800 891 1234
                   </Link>
                 </Button>
               </div>

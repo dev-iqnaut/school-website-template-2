@@ -49,7 +49,7 @@ const ManagingCommittee = ({ committeeData = [], vision = "", mission = [] }) =>
           {/* Vision Section */}
           <div>
             <h3 className="text-xl font-bold mb-4">Vision</h3>
-            <p className="p-4 rounded">{vision}</p>
+            <p className="p-4 text-black text-md rounded">{vision}</p>
           </div>
 
           {/* Mission Section */}
