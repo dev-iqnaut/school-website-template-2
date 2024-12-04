@@ -34,31 +34,31 @@ export const menuList = [
     dropDownMenu: [
       {
         id: 1,
-        path: "/services",
+        path: "/staffDetails",
         label: "Staff Details",
       },
       {
         id: 2,
-        path: "/service-details",
-        label: "School Committee",
+        path: "/schoolCommitee",
+        label: "School Commitee",
       },
       {
         id: 3,
-        path: "/service-details",
+        path: "https://drive.google.com/file/d/1cHIBD8IJS2qXImwWO8f59cqzoRH-SpVD/view",
         label: "Student Enroll",
       },
       {
-        id: 3,
+        id: 4,
         path: "/feesScholorship",
         label: "Fees & Scholarship",
       },
       {
-        id: 3,
-        path: "/service-details",
+        id: 5,
+        path: "/teachersTraining",
         label: "Teachers Training",
       },
       {
-        id: 3,
+        id: 6,
         path: "/tcSample",
         label: "TC Sample",
       },

@@ -19,6 +19,10 @@ import LayoutThree from "@/layout/layoutThree";
 import Affiliation from "@/pages/affiliation";
 import Admission from "@/pages/admission";
 import Infrastructure from "@/pages/infrastructure";
+import StaffDetails from "@/pages/staffDetails";
+import SchoolCommitee from "@/pages/schoolCommitee";
+import TeachersTraining from "@/pages/teachersTraining";
+import { School } from "lucide-react";
 
 
 export const router = createBrowserRouter([
@@ -67,6 +71,14 @@ export const router = createBrowserRouter([
                 element: <FeesScholorship />
             },
             {
+                path: "/teachersTraining",
+                element: <TeachersTraining />
+            },
+            {
+                path: "/schoolCommitee",
+                element: <SchoolCommitee />
+            },
+            {
                 path: "/mandatoryDisclosure",
                 element: <MandatoryDisclosure />
             },
@@ -85,6 +97,10 @@ export const router = createBrowserRouter([
             {
                 path: "/blog-details",
                 element: <BlogDetails />
+            },
+            {
+                path: "/staffDetails",
+                element: <StaffDetails />
             },
             {
                 path: "/services",

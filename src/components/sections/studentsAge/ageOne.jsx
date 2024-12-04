@@ -36,9 +36,7 @@ const AgeOne = () => {
                 excellence with creativity and life skills ensures your child is
                 prepared for every challenge and ready to embrace success.
               </SectionDescription>
-              <Button asChild variant="outline">
-                                <Link to="/contact-us">Contact Us</Link>
-                            </Button>
+              <a class="inline-flex items-center justify-center gap-2.5 whitespace-nowrap font-medium ring-offset-background focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 overflow-hidden relative z-[1] transition-all duration-500 after:absolute after:left-0 after:top-0 after:w-0 after:h-full after:transition-all after:duration-500 after:z-[-1] hover:after:w-full group bg-destructive border-2 border-destructive rounded-full text-cream-foreground hover:bg-transparent hover:text-destructive-foreground max-h-15 lg:py-5 px-[30px] py-2.5" href="/about-us">Contact Us</a>
             </div>
 
             <div className="relative flex justify-center flex-wrap sm:flex-nowrap lg:justify-between md:gap-7.5 sm:gap-4 gap-3">

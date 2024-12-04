@@ -4,9 +4,9 @@ import { ScrollRestoration } from 'react-router-dom'
 import AboutOne from '@/components/sections/abouts/aboutOne'
 import NewsletterTwo from '@/components/sections/newsletters/newsletterTwo'
 import PageTitle from '@/components/sections/pageTitle'
-import TcSample from '@/components/sections/tcSample'
+import TeachersTraining from '@/components/sections/teachersTraining'
 
-const tcSample = () => {
+const teachersTraining = () => {
 
   return (
     <>
@@ -15,13 +15,13 @@ const tcSample = () => {
         <meta name="description" content="Ascent - Chindcare & Kids School React.js and Tailwind CSS Template" />
       </Helmet>
       <main>
-        <PageTitle pageName={"TC Sample"} breadcrumbCurrent={"TC Sample"} />
+        <PageTitle pageName={"Teachers Training"} breadcrumbCurrent={"Teachers Training"} />
         {/* <AboutOne gridClass={"lg:grid-cols-2"} isAboutpage={true} /> */}
-        <TcSample />
+        <TeachersTraining />
       </main>
       <ScrollRestoration/>
     </>
   )
 }
 
-export default tcSample
+export default teachersTraining

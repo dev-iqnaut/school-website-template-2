@@ -40,7 +40,7 @@ const ManagingCommittee = ({ committeeData = [], vision = "", mission = [] }) =>
           </div>
 
           {/* Photo Placeholder */}
-          <div className="flex justify-center items-center border border-gray-700 bg-gray-300 text-gray-500 text-xl font-semibold">
+          <div className="flex justify-center items-center text-xl font-semibold">
             <img src={members} />
           </div>
         </div>
