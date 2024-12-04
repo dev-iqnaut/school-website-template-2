@@ -25,7 +25,18 @@ import TeachersTraining from "@/pages/teachersTraining";
 import SchoolCurriculum from "@/pages/schoolCurriculum";
 import SchoolAtGlance from "@/pages/schoolAtGlance";
 import CbseResults from "@/components/sections/cbseResults";
+import CoCurricularActivities from "@/pages/coCurricularActivities";
+import SchoolActivities from "@/pages/schoolActivities";
+import Achievements from "@/pages/achievements";
+import Olympiad from "@/pages/olympiad";
+import Sports from "@/pages/sports";
+import DevelopmentOfCommunityServices from "@/pages/developmentOfCommunityServices";
+import CbseActivities from "@/pages/cbseActivities";
 import { School } from "lucide-react";
+import GalleryPage from "@/pages/galleryPage";
+import Contact from "@/pages/contact";
+import PrincipalMessage from "@/pages/principalMessage";
+import StudentEnroll from "@/pages/studentEnroll";
 
 
 export const router = createBrowserRouter([
@@ -82,12 +93,48 @@ export const router = createBrowserRouter([
                 element: <SchoolCommitee />
             },
             {
+                path: "/galleryPage",
+                element: <GalleryPage />
+            },
+            {
                 path: "/schoolCurriculum",
                 element: <SchoolCurriculum />
             },
             {
+                path: "/achievements",
+                element: <Achievements />
+            },
+            {
+                path: "/schoolActivities",
+                element: <SchoolActivities />
+            },
+            {
+                path: "/coCurricularActivities",
+                element: <CoCurricularActivities />
+            },
+            {
+                path: "/studentEnroll",
+                element: <StudentEnroll />
+            },
+            {
+                path: "/sports",
+                element: <Sports />
+            },
+            {
+                path: "/cbseActivities",
+                element: <CbseActivities />
+            },
+            {
                 path: "/mandatoryDisclosure",
                 element: <MandatoryDisclosure />
+            },
+            {
+                path: "/developmentOfCommunityServices",
+                element: <DevelopmentOfCommunityServices />
+            },
+            {
+                path: "/olympiad",
+                element: <Olympiad />
             },
             {
                 path: "/affiliation",
@@ -112,6 +159,14 @@ export const router = createBrowserRouter([
             {
                 path: "/cbseResults",
                 element: <CbseResults />
+            },
+            {
+                path: "/contact",
+                element: <Contact />
+            },
+            {
+                path: "/principalMessage",
+                element: <PrincipalMessage />
             },
             {
                 path: "/schoolAtGlance",

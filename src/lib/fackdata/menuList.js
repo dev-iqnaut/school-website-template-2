@@ -44,7 +44,7 @@ export const menuList = [
       },
       {
         id: 3,
-        path: "https://drive.google.com/file/d/1cHIBD8IJS2qXImwWO8f59cqzoRH-SpVD/view",
+        path: "studentEnroll",
         label: "Student Enroll",
       },
       {
@@ -103,51 +103,46 @@ export const menuList = [
     dropDownMenu: [
       {
         id: 1,
-        path: "#",
+        path: "coCurricularActivities",
         label: "Co Curricular Activities",
-        dropDownMenu: [
-          {
-            id: 1,
-            path: "/services",
-            label: "Co Curricular Activities",
-          },
-          {
-            id: 2,
-            path: "/faq",
-            label: "School Activities",
-          },
-        ],
+        
       },
       {
         id: 2,
-        path: "/services",
-        label: "Achievements",
+        path: "schoolActivities",
+        label: "School Activities",
+        
       },
       {
         id: 3,
-        path: "/faq",
-        label: "Olympiad",
+        path: "/achievements",
+        label: "Achievements",
       },
       {
         id: 4,
-        path: "/portfolio",
+        path: "/olympiad",
+        label: "Olympiad",
+      },
+      {
+        id: 5,
+        path: "/developmentOfCommunityServices",
         label: "Development of Community Services",
       },
       {
-        id: 5,
-        path: "/contact-us",
+        id: 6,
+        path: "/sports",
         label: "Sports",
       },
       {
-        id: 5,
-        path: "/contact-us",
+        id: 7,
+        path: "/cbseActivities",
         label: "CBSE Activities",
       },
     ],
   },
   {
     id: 6,
-    path: "/contact-us",
+    path: "/galleryPage",
     label: "Gallery",
     dropDownMenu: false,
   },
@@ -164,12 +159,12 @@ export const menuList = [
     dropDownMenu: [
       {
         id: 1,
-        path: "/blog",
+        path: "/contact",
         label: "Contact",
       },
       {
         id: 2,
-        path: "/blog-details",
+        path: "/principalMessage",
         label: "Principal's Message",
       },
     ],

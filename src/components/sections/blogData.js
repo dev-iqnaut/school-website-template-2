@@ -1,5 +1,5 @@
 const blogData = {
-  mainHeading: "Latest Blogs",
+  mainHeading: "CBSE Results",
   blogs: [
     {
       image: "https://i0.wp.com/www.sghps.ac.in/wp-content/uploads/2023/11/Teaching-AID-2023-2024-min.jpeg?resize=300%2C225&ssl=1",
