@@ -1,4 +1,5 @@
 import React from "react";
+import members from "@/assets/images/members.png";
 
 const ManagingCommittee = ({ committeeData = [], vision = "", mission = [] }) => {
   return (
@@ -40,7 +41,7 @@ const ManagingCommittee = ({ committeeData = [], vision = "", mission = [] }) =>
 
           {/* Photo Placeholder */}
           <div className="flex justify-center items-center border border-gray-700 bg-gray-300 text-gray-500 text-xl font-semibold">
-            Photo
+            <img src={members} />
           </div>
         </div>
 

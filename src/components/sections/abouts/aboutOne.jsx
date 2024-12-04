@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import Title from '@/components/ui/title'
-import about_img_1 from "@/assets/images/about/about-1.png"
+import about_img_1 from "@/assets/images/school-collage.png"
 import icreement from "@/assets/images/about/icreement.png"
 import shap_1 from "@/assets/images/about/shap-1.png"
 import customer from "@/assets/images/about/customer.png"

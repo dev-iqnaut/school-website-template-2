@@ -13,7 +13,6 @@ const cardData = [
   { age: "1-2", className: "bg-primary", title: "Tech-Driven Solutions" },
   { age: "3-5", className: "bg-secondary", title: "Future-Ready Education" },
   { age: "6-8", className: "bg-destructive", title: "Holistic Development" },
-  // { age: "9-11", className: "bg-red-400", title: "Skill-Based Learning" },
   { age: "12-15", className: "bg-secondary", title: "Engaging Curriculum" },
   { age: "16-18", className: "bg-green", title: "21st Century Skills" },
 ];
@@ -37,6 +36,9 @@ const AgeOne = () => {
                 excellence with creativity and life skills ensures your child is
                 prepared for every challenge and ready to embrace success.
               </SectionDescription>
+              <Button asChild variant="outline">
+                                <Link to="/contact-us">Contact Us</Link>
+                            </Button>
             </div>
 
             <div className="relative flex justify-center flex-wrap sm:flex-nowrap lg:justify-between md:gap-7.5 sm:gap-4 gap-3">
