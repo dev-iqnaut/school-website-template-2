@@ -1,7 +1,7 @@
 import { createBrowserRouter } from "react-router-dom";
 import RootLayout from "../layout/root";
 import Portfolio from "../pages/portfolio";
-import Blog from "../pages/blog";
+// import Blog from "../pages/blog";
 import BlogDetails from "../pages/blog-details";
 import ContactUs from "@/pages/contact-us";
 import AboutUs from "@/pages/about-us";
@@ -22,6 +22,9 @@ import Infrastructure from "@/pages/infrastructure";
 import StaffDetails from "@/pages/staffDetails";
 import SchoolCommitee from "@/pages/schoolCommitee";
 import TeachersTraining from "@/pages/teachersTraining";
+import SchoolCurriculum from "@/pages/schoolCurriculum";
+import SchoolAtGlance from "@/pages/schoolAtGlance";
+import CbseResults from "@/components/sections/cbseResults";
 import { School } from "lucide-react";
 
 
@@ -79,6 +82,10 @@ export const router = createBrowserRouter([
                 element: <SchoolCommitee />
             },
             {
+                path: "/schoolCurriculum",
+                element: <SchoolCurriculum />
+            },
+            {
                 path: "/mandatoryDisclosure",
                 element: <MandatoryDisclosure />
             },
@@ -101,6 +108,14 @@ export const router = createBrowserRouter([
             {
                 path: "/staffDetails",
                 element: <StaffDetails />
+            },
+            {
+                path: "/cbseResults",
+                element: <CbseResults />
+            },
+            {
+                path: "/schoolAtGlance",
+                element: <SchoolAtGlance />
             },
             {
                 path: "/services",

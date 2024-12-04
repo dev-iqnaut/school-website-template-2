@@ -8,13 +8,13 @@ const staffDetails = () => {
       <div className="container">
         <div className="flex flex-col justify-center items-center">
           <SectionName className={"text-primary-foreground"}>
-            Great{" "}
+            Staff Details{" "}
           </SectionName>
-          <Title size={"3.5xl"} className={"mt-2.5 text-center max-w-[516px]"}>
+          {/* <Title size={"3.5xl"} className={"mt-2.5 text-center max-w-[516px]"}>
             Out Wonderfull Staff
-          </Title>
+          </Title> */}
           <p className={`pt-5 text-xl`}>
-            are fully qualified, very experienced and extremely dedicated to
+            Our wonderful staff is fully qualified, very experienced and extremely dedicated to
             their roles – many have been with us since it opened in 2010. We
             truly value continuity of care and know how important consistency is
             in a young child’s life – which is why we our team is only made of
@@ -31,7 +31,7 @@ const staffDetails = () => {
             Great{" "}
           </SectionName> */}
           <Title size={"3.5xl"} className={"mt-2.5 text-center max-w-[516px]"}>
-            Early Childhood educators
+            Our Educators
           </Title>
           <p className={`pt-5`}>
             IMAGES

@@ -16,7 +16,7 @@ export const servicesDataTwo = [
         id:3,
         icon:"feeder",
         service_name:"Health & Safety",
-        service_details:"Our students feel safe and secure in a protected environment where teachers and helpers are always around, to escort and guide.",
+        service_details:"Our students feel safe & secure in a protected environment where teachers & helpers are always around, to escort & guide.",
     },
     {
         id:4,

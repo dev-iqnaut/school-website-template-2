@@ -71,7 +71,7 @@ export const menuList = [
     dropDownMenu: [
       {
         id: 1,
-        path: "/blog",
+        path: "/schoolCurriculum",
         label: "School Curriculum",
       },
       {
@@ -81,17 +81,17 @@ export const menuList = [
       },
       {
         id: 3,
-        path: "/blog-details",
+        path: "/schoolAtGlance",
         label: "School At Glance",
       },
       {
         id: 4,
-        path: "/blog-details",
+        path: "/listOfBooks",
         label: "Holidays List",
       },
       {
         id: 5,
-        path: "/blog-details",
+        path: "/cbseResults",
         label: "CBSE Results",
       },
     ],

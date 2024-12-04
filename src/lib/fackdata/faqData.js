@@ -19,10 +19,10 @@ export const faqData = [
         question:"Daily Timetable & Schedule",
         ans:"Parents can access their child’s daily timetable, including details of upcoming tests, assignments, and activities, ensuring they stay informed about their child’s routine."
     },
-    {
-        id:"five",
-        question:"Instant Notifications",
-        ans:"Receive important updates from the school, including announcements, events, or teacher-specific notifications, ensuring you never miss any critical information."
-    },
+    // {
+    //     id:"five",
+    //     question:"Instant Notifications",
+    //     ans:"Receive important updates from the school, including announcements, events, or teacher-specific notifications, ensuring you never miss any critical information."
+    // },
 
 ]

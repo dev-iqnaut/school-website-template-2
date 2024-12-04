@@ -12,7 +12,7 @@ const name = () => {
             Great{" "}
           </SectionName>
           <Title size={"3.5xl"} className={"mt-2.5 text-center max-w-[516px]"}>
-            Out Wonderfull Staff
+            Our Wonderfull Staff
           </Title>
           <p className={`pt-5 text-xl`}>
             
