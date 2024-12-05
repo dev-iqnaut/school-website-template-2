@@ -9,7 +9,7 @@ import Pricing from "@/components/sections/pricing";
 import Testimonial from "@/components/sections/testimonial";
 import { PDFViewer } from "@/components/sections/PDFViewer.jsx";
 // import { SideText } from '@/components/sections/SideText';
-import mammoth from 'mammoth';
+import mammoth from "mammoth";
 import docdemo from "@/assets/AmericanSlang.pdf";
 
 const mandatoryDisclosure = () => {
@@ -27,16 +27,12 @@ const mandatoryDisclosure = () => {
           pageName={"Mandatory Disclosure"}
           breadcrumbCurrent={"Mandatory Disclosure"}
         />
-        <div>
-        <div className="flex justify-center min-h-[800px]">
+        <div className="flex justify-center items-center h-[800px] min-w-[400px]">
           <iframe
-            src={docdemo}
-            style={{ width: "40%", height: "700px" }}
-            className="rounded-lg border-b outline outline-offset-1 border-black"
-            frameBorder="0"
-            title="PDF Viewer"
-          ></iframe>{" "}
-        </div>
+            src="https://docs.google.com/document/d/e/2PACX-1vTTu1TRSXGsp_NhXclYBHV45B_bxrwRB7-H_eAj7p5t9BDmndRuHvBILxmCk4_O4iv1gPzuEkupN23E/pub?embedded=true"
+            className="w-[1000px] h-[700px]"
+            style={{ border: "none" }}
+          ></iframe>
         </div>
       </main>
       <ScrollRestoration />
