@@ -101,7 +101,7 @@ function teachersTraining() {
                   {post.category}
                 </span>
                 <span className="text-gray-500 text-sm">{post.date}</span>
-                <span className="text-gray-500 text-sm">• {post.comments}</span>
+                {/* <span className="text-gray-500 text-sm">• {post.comments}</span> */}
               </div>
               <h2 className="text-3xl font-bold mb-4 text-gray-800">
                 {post.title}

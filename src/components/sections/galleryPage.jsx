@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 import images from "./galleryData"; // Importing images from the external file
 
-const galleryPage = () => {
-    const [fullscreenImage, setFullscreenImage] = useState(null);
+const GalleryPage = () => {
+  const [fullscreenImage, setFullscreenImage] = useState(null);
 
   // Function to handle image click
   const handleImageClick = (imageSrc) => {
@@ -17,15 +17,16 @@ const galleryPage = () => {
   return (
     <div className="p-4 max-w-5xl mx-auto">
       {/* Gallery grid */}
-      <div className="grid grid-cols-2 sm:grid-cols-3 gap-3 md:gap-4">
+      <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-3 gap-4">
         {images.map((image, index) => (
-          <img
-            key={index}
-            src={image.src}
-            alt={image.alt || "Gallery Image"}
-            className="w-full h-auto rounded-md cursor-pointer transform transition-transform hover:scale-105"
-            onClick={() => handleImageClick(image.src)}
-          />
+          <div key={index} className="relative group">
+            <img
+              src={image.src}
+              alt={image.alt || "Gallery Image"}
+              className="w-full h-48 object-cover rounded-md cursor-pointer transform transition-transform hover:scale-105"
+              onClick={() => handleImageClick(image.src)}
+            />
+          </div>
         ))}
       </div>
 
@@ -58,4 +59,4 @@ const galleryPage = () => {
   );
 };
 
-export default galleryPage;
+export default GalleryPage;

@@ -13,7 +13,7 @@ const feesScholorship = () => {
   return (
     <>
       <Helmet>
-        <title>Ascent - Chindcare & Kids School React.js Template || About-Us</title>
+        <title>IQnaut - Nurturing futures for a brighter tomorrow</title>
         <meta name="description" content="Ascent - Chindcare & Kids School React.js and Tailwind CSS Template" />
       </Helmet>
       <main>

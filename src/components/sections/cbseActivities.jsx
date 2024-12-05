@@ -1,7 +1,7 @@
 import React from "react";
 import SectionName from "../ui/sectionName";
 // import Title from "../ui/title";
-import blogData from "./cbseActivities"; // Import data from an external file
+import blogData from "./cbseActivitiesData"; // Import data from an external file
 
 const cbseActivities = () => {
   const { mainHeading, blogs } = blogData;

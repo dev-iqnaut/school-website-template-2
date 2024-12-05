@@ -86,7 +86,7 @@ export const menuList = [
       },
       {
         id: 4,
-        path: "/listOfBooks",
+        path: "/holidaysList",
         label: "Holidays List",
       },
       {
@@ -159,8 +159,8 @@ export const menuList = [
     dropDownMenu: [
       {
         id: 1,
-        path: "/contact",
-        label: "Contact",
+        path: "/contact-us",
+        label: "Contact Us",
       },
       {
         id: 2,

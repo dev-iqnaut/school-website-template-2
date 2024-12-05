@@ -37,6 +37,7 @@ import GalleryPage from "@/pages/galleryPage";
 import Contact from "@/pages/contact";
 import PrincipalMessage from "@/pages/principalMessage";
 import StudentEnroll from "@/pages/studentEnroll";
+import HolidaysList from "@/pages/holidaysList";
 
 
 export const router = createBrowserRouter([
@@ -75,6 +76,10 @@ export const router = createBrowserRouter([
             {
                 path: "/listOfBooks",
                 element: <ListOfBooks />
+            },
+            {
+                path: "/holidaysList",
+                element: <HolidaysList />
             },
             {
                 path: "/tcSample",

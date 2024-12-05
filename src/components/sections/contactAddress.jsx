@@ -13,7 +13,7 @@ const ContactAddress = () => {
                                 <span className="text-cream-foreground text-[28px]"><FaLocationDot /> </span>
                             </div>
                             <h5 className="font-bold text-xl mt-5 pb-2.5">Location</h5>
-                            <p>120os road no12.Mirpur,Bangladesh</p>
+                            <p>IQnaut Public School , Bezonbagh, Nagpur- 440014 , Maharashtra.</p>
                         </div>
                     </SlideUp>
 
@@ -23,7 +23,7 @@ const ContactAddress = () => {
                                 <span className="text-cream-foreground text-[28px]"><FaEnvelope /> </span>
                             </div>
                             <h5 className="font-bold text-xl mt-5 pb-2.5">Mail</h5>
-                            <p><a href="">nafiz123@gmail.com</a>- <a href="">fahad 1234@gmail.com</a></p>
+                            <p><a href="">care@iqnaut.com</a>- <a href="">care@iqnaut.com</a></p>
                         </div>
                     </SlideUp>
 
@@ -33,7 +33,7 @@ const ContactAddress = () => {
                                 <span className="text-cream-foreground text-[28px]"><FaPhone /> </span>
                             </div>
                             <h5 className="font-bold text-xl mt-5 pb-2.5">Contact</h5>
-                            <p><a href="">013254974147</a>,<a href="">01258369741</a> </p>
+                            <p><a href="">1800 891 1234</a>,<a href="">1800 891 1234</a> </p>
                         </div>
                     </SlideUp>
 

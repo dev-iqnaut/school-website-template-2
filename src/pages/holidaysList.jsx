@@ -4,9 +4,11 @@ import { ScrollRestoration } from 'react-router-dom'
 import AboutOne from '@/components/sections/abouts/aboutOne'
 import NewsletterTwo from '@/components/sections/newsletters/newsletterTwo'
 import PageTitle from '@/components/sections/pageTitle'
-import GalleryPage from '@/components/sections/galleryPage'
+import HolidaysList from '@/components/sections/holidaysList'
+import Pricing from '@/components/sections/pricing'
+import Testimonial from '@/components/sections/testimonial'
 
-const galleryPage = () => {
+const holidaysList = () => {
 
   return (
     <>
@@ -15,13 +17,13 @@ const galleryPage = () => {
         <meta name="description" content="Ascent - Chindcare & Kids School React.js and Tailwind CSS Template" />
       </Helmet>
       <main>
-        <PageTitle pageName={"Gallery"} breadcrumbCurrent={"Gallery"} />
-        
-        <GalleryPage />
+        <PageTitle pageName={"Holidays List"} breadcrumbCurrent={"Holidays List"} />
+        {/* <AboutOne gridClass={"lg:grid-cols-2"} isAboutpage={true} /> */}
+        <HolidaysList />
       </main>
       <ScrollRestoration/>
     </>
   )
 }
 
-export default galleryPage
+export default holidaysList

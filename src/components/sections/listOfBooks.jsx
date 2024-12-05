@@ -7,28 +7,13 @@ const Pricing = () => {
       <div className="container">
         <div className="mt-20">
           <h2 className="text-6xl font-bold text-center">
-            Holidays & Books List 2023-24
+            Books List 2023-24
           </h2>
 
           {/* Grid Layout */}
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 mt-8">
             {/* Holidays */}
-            <div className="bg-white p-6 rounded-lg shadow-md hover:shadow-xl transition duration-300 ease-in-out">
-              <div className="text-center mb-4">
-                <FaBook className="text-4xl text-gray-600" />
-              </div>
-              <h3 className="text-xl font-bold text-center">
-                Holiday List 2023-24
-              </h3>
-              <div className="mt-4 text-center">
-                <a
-                  href="#"
-                  className="text-blue-500 hover:text-blue-700 font-medium"
-                >
-                  Download
-                </a>
-              </div>
-            </div>
+            
 
             {/* Card 1 */}
             <div className="bg-white p-6 rounded-lg shadow-md hover:shadow-xl transition duration-300 ease-in-out">
