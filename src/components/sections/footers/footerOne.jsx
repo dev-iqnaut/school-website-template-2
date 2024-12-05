@@ -31,7 +31,7 @@ const FooterOne = () => {
             <ul className="flex flex-col gap-[15px] pt-5 min-w-[203px]">
               <li>
                 <Link
-                  to="/about-us"
+                  to="/admission"
                   className="text-[#686868] transition-all duration-500 hover:ml-1 hover:text-primary-foreground"
                 >
                   Admission
@@ -39,7 +39,7 @@ const FooterOne = () => {
               </li>
               <li>
                 <Link
-                  to="/services"
+                  to="/contact-us"
                   className="text-[#686868] transition-all duration-500 hover:ml-1 hover:text-primary-foreground"
                 >
                   Contact Us
@@ -47,7 +47,7 @@ const FooterOne = () => {
               </li>
               <li>
                 <Link
-                  to="/blog"
+                  to="/about-us"
                   className="text-[#686868] transition-all duration-500 hover:ml-1 hover:text-primary-foreground"
                 >
                   About Us
@@ -55,7 +55,7 @@ const FooterOne = () => {
               </li>
               <li>
                 <Link
-                  to="/faq"
+                  to="/mandatoryDisclosure"
                   className="text-[#686868] transition-all duration-500 hover:ml-1 hover:text-primary-foreground"
                 >
                   Mandatory Disclosure

@@ -54,7 +54,7 @@ const FooterTwo = () => {
               </li>
               <li>
                 <Link
-                  to="/services"
+                  to="/contact-us"
                   className="text-cream-foreground transition-all duration-500 hover:ml-[5px] hover:text-primary-foreground"
                 >
                   Contact Us
@@ -62,7 +62,7 @@ const FooterTwo = () => {
               </li>
               <li>
                 <Link
-                  to="/blog"
+                  to="/listOfBooks"
                   className="text-cream-foreground transition-all duration-500 hover:ml-[5px] hover:text-primary-foreground"
                 >
                   List of Books
@@ -70,7 +70,7 @@ const FooterTwo = () => {
               </li>
               <li>
                 <Link
-                  to="/faq"
+                  to="/mandatoryDisclosure"
                   className="text-cream-foreground transition-all duration-500 hover:ml-[5px] hover:text-primary-foreground"
                 >
                   Mandatory Disclosure
