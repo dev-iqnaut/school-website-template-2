@@ -118,10 +118,10 @@ const FooterTwo = () => {
               </p>
               <Button
                   variant="pill"
-                  className="bg-secondary border-secondary mt-3 hover:text-white-foreground"
+                  className="bg-primary border-primary -ml-1 mt-4 hover:text-white-foreground"
                   asChild
                 >
-                  <Link to={"/admission"} className="btn-rounded">
+                  <Link to={"/admission"} className="rounded-3xl">
                     Admission
                   </Link>
                 </Button>
