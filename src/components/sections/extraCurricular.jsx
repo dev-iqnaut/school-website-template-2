@@ -19,10 +19,8 @@ const ExtraCurricular = () => {
             Achievers
           </SectionName>
           <Title size={"3.5xl"} className={"mt-2.5 text-center max-w-[514px]"}>
-            Our Achievers Are A Testament To Our Focus On Holistic Development,
-            Excelling In Academics, Sports, Arts, And Life Skills. We Nurture
-            Well-Rounded Individuals Ready To Lead And Inspire In Every Sphere
-            Of Life.
+            We Nurture
+            Well-Rounded Individuals <br /> Ready To Lead And Inspire 
           </Title>
         </div>
         <div className="lg:pt-15 pt-10">

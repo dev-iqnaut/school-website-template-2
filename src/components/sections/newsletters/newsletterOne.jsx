@@ -24,7 +24,7 @@ const NewsletterOne = () => {
                 Get Connected
               </SectionName>
               <Title size={"3.5xl"}>
-                Admissions Open for the Academic Year - 2025-2026
+                Admissions Open 2025-2026
               </Title>
               <div className="flex relative mt-2">
               <FaPhone size={20} className="align-center justify-center mr-3 mt-2" />

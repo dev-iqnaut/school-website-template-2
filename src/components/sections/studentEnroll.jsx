@@ -14,9 +14,16 @@ const studentEnroll = () => {
           <Title size={"3.5xl"} className={"mt-2.5 text-center max-w-[516px]"}>
             Student Enrollment
           </Title>
-          <p className={`py-40 text-xl`}>
+          {/* <p className={`py-40 text-xl`}>
             PDF HERE
-          </p>
+          </p> */}
+          <div className="flex justify-center items-center h-[800px] min-w-[400px]">
+          <iframe
+            src="https://docs.google.com/document/d/e/2PACX-1vRzWuEdRwpHysDMZ_PHQMBzVogKOIEZIC6cQsrtgHRXCw_Cv7DLo8aiQzZQ_DGNb8jW9RAFgaRyJA4x/pub?embedded=true"
+            className="w-[1000px] h-[700px]"
+            style={{ border: "none" }}
+          ></iframe>
+        </div>
         </div>
       </div>
     </section>

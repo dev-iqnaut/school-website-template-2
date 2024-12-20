@@ -33,9 +33,16 @@ const staffDetails = () => {
           <Title size={"3.5xl"} className={"mt-2.5 text-center max-w-[516px]"}>
             Our Educators
           </Title>
-          <p className={`pt-5`}>
+          {/* <p className={`pt-5`}>
             IMAGES
-          </p>
+          </p> */}
+          <div className="flex justify-center items-center h-[800px] min-w-[400px]">
+          <iframe
+            src="https://docs.google.com/document/d/e/2PACX-1vTR5y6ThMKHPYdvofugogIU1VXQ-IwyKKn9JGiDCWdxDXjQNLaJsKBbRwIJAwtFvnZaslTZPPYlE_Lk/pub?embedded=true"
+            className="w-[1000px] h-[700px]"
+            style={{ border: "none" }}
+          ></iframe>
+        </div>
         </div>
       </div>
     </section>

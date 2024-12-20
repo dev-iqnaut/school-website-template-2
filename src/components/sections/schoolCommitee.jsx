@@ -14,9 +14,14 @@ const schoolCommitee = () => {
           <Title size={"3.5xl"} className={"mt-2.5 text-center max-w-[516px]"}>
             School Commitee
           </Title>
-          <p className={`py-40 text-xl`}>
-            PDF HERE
-          </p>
+          
+          <div className="flex justify-center items-center h-[800px] min-w-[400px]">
+          <iframe
+            src="https://docs.google.com/document/d/e/2PACX-1vRu27OA6JIP9RsEyfibB99_P1DdITaRvv4Wx_SnjBB80IXd7vGFluCHq6uHTOa0J3j9zFnhwA2oEYxE/pub?embedded=true"
+            className="w-[1000px] h-[700px]"
+            style={{ border: "none" }}
+          ></iframe>
+        </div>
         </div>
       </div>
     </section>
